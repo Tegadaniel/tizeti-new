@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Bar } from 'react-chartjs-2';
 import SelectLabel from "../../components/Select";
 import mail from "../../assets/images/mail.svg";
 import profile from "../../assets/images/profile.svg";
@@ -7,19 +6,6 @@ import logout from "../../assets/images/logout.svg";
 import { overview } from "./data";
 
 
-const state = {
-  labels: ['January', 'February', 'March',
-           'April', 'May'],
-  datasets: [
-    {
-      label: 'Rainfall',
-      backgroundColor: 'rgba(75,192,192,1)',
-      borderColor: 'rgba(0,0,0,1)',
-      borderWidth: 2,
-      data: [65, 59, 80, 81, 56]
-    }
-  ]
-}
 
 function Overview() {
   const [currency, setCurrency] = useState("");
@@ -27,19 +13,6 @@ function Overview() {
     { value: "NGN", label: "NGN" },
     { value: "GHC", label: "GHC" },
   ]);
-  const state = {
-    labels: ['January', 'February', 'March',
-             'April', 'May'],
-    datasets: [
-      {
-       
-        backgroundColor: 'rgba(75,192,192,1)',
-        borderColor: 'rgba(0,0,0,1)',
-        borderWidth: 2,
-        data: [65, 59, 80, 81, 56]
-      }
-    ]
-  }
 
   const [days, setdays] = useState("");
   const [daysData] = useState([{ value: "Last 7 days", label: "Last 7 days" }]);
@@ -126,20 +99,6 @@ function Overview() {
       </div>
       <div className="w-full h-[428px] divide-x divide-[#C4C4C4] grid md:grid-cols-12 border border-[#C4C4C4] mb-8">
         <div className="col-span-8">
-        {/* <Bar
-          data={state}
-          options={{
-            title:{
-              display:true,
-              text:'Average Rainfall per month',
-              fontSize:20
-            },
-            legend:{
-              display:true,
-              position:'right'
-            }
-          }}
-        /> */}
         </div>
 
         <div className="col-span-4">
