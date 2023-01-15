@@ -10,7 +10,7 @@ import {
 } from "../../mocks/table-data";
 import Dot from "../../components/Dot";
 import ModalExpanded from "../../components/modals/modalExpanded";
-import ViewCustomer from "./components/viewCustomer";
+import ViewCustomer from "./components/ViewCustomer";
 import ViewLocation from "./components/ViewLocation";
 
 function UserAssignedInstallation() {
