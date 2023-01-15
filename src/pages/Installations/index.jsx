@@ -11,13 +11,13 @@ import edit from "../../assets/images/edit.svg";
 import person from "../../assets/images/person.svg";
 import truncateStr, { color } from "../../utils/function";
 import Text from "../../components/Typography/Typography";
-import ModalExpanded from "../../components/modals/modalExpanded";
-import ModalPopUpSmall from "../../components/modals/ModalPopUpSmall";
+import ModalExpanded from "../../components/Modals/ModalExpanded";
+import ModalPopUpSmall from "../../components/Modals/ModalPopUpSmall";
 import ViewUser from "./components/ViewUser";
 import CalenderDropdown from "../../components/CalenderDropdown";
 import EditUser from "./components/EditUser";
 import ActivateUser from "./components/ActivateUser";
-import Input from "../../components/ui/Input";
+import Input from "../../components/Ui/Input";
 
 function Installations() {
   // const [users] = useState(installationData);

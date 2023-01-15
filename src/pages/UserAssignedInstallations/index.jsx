@@ -9,7 +9,7 @@ import {
   installationFSEHeaders,
 } from "../../mocks/table-data";
 import Dot from "../../components/Dot";
-import ModalExpanded from "../../components/modals/modalExpanded";
+import ModalExpanded from "../../components/Modals/ModalExpanded";
 import ViewCustomer from "./components/ViewCustomer";
 import ViewLocation from "./components/ViewLocation";
 

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import closeIcon from "../../../assets/images/closeIcon.svg";
 import Text from "../../../components/Typography/Typography";
-import Input from "../../../components/ui/Input";
+import Input from "../../../components/Ui/Input";
 import Grid from "@mui/material/Grid";
 import * as api from "../api/users";
 import { Form, Formik, Field } from "formik";
-import Button from "../../../components/ui/Button";
+import Button from "../../../components/Ui/Button";
 import Dropdown from "../../../components/Dropdown";
 import { useMutation } from "@tanstack/react-query";
 

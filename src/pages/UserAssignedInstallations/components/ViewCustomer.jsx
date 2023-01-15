@@ -8,7 +8,7 @@ import Empty from "../../../assets/images/Empty.svg";
 import Dropdown from "../../../components/Dropdown";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { toast } from "react-toastify";
-import ModalPopUpSmall from "../../../components/modals/ModalPopUpSmall";
+import ModalPopUpSmall from "../../../components/Modals/ModalPopUpSmall";
 import AddComment from "./AddComment";
 import UploadKyc from "./UploadKyc";
 import InitiateRefund from "./InitiateRefund";
