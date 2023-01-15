@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Button from "../../components/ui/Button";
 import Input from "../../components/ui/Input";
-import Modal from "../../components/modals/ModalPopUpSmall";
-import ModalExpanded from "../../components/modals/modalExpanded";
+import Modal from "../../components/Modals/ModalPopUpSmall";
+import ModalExpanded from "../../components/Modals/ModalExpanded";
 import ScheduleCard from "./components/ScheduleCard";
 import forward from "../../assets/icons/forward.svg";
 import previous from "../../assets/icons/previous.svg";
